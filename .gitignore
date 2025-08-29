@@ -65,7 +65,7 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
-
+.txt
 # Scrapy stuff:
 .scrapy
 
@@ -215,3 +215,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Dataset or large files (optional)
+data/
+*.csv
+*.json
